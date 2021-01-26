@@ -10,3 +10,8 @@ b = 40
 const c = 10
 
 console.log (a,b,c)
+
+
+//variaveis podem ter seu valor (conteudo) modificado
+// let nao pode variar o seu valor (conteudo)
+//ja o const não se pode ter o valor de uma constante especifica modificado

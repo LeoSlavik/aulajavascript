@@ -19,3 +19,22 @@ console.log (typeof avaliacao2)
 
   //  console.log ("aprovado")
 //}
+
+const prova1bimestre = 10
+const prova2bimestre = 20
+const prova3bimestre = 30
+const prova4bimestre = 0
+
+var suanota = prova1bimestre + prova2bimestre + prova3bimestre + prova4bimestre
+var media = 60 
+
+if (suanota < 60) {
+
+  console.log ("você foi reprovado")
+}
+else if  (suanota >=60) {
+
+
+console.log ("voce está aprovado!!!")
+
+}
