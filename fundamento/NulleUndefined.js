@@ -8,8 +8,7 @@ console.log (valor) // valor ausente
 
 const produto ={} 
 console.log (produto.name) //como produto foi declarado mais seu nome nao, dá undefined  Ex: 
-produto.preco = "this product price is " ,null 
-console.log (produto.preco) 
+produto.preco = null 
 const lanche = {} 
 lanche.name = "X burguer"
 lanche.preco = 
