@@ -47,3 +47,9 @@ function Modulos (V , L) {
     console.log (V % L)
 }
 Modulos (15 , 4)          //resto de divisões
+
+function Soma  (a ,b = 190) {
+
+    return   a + b
+}
+ console.log (soma)
