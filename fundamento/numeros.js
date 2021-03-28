@@ -37,4 +37,4 @@ else if  (suanota >=60) {
 
 console.log ("voce está aprovado!!!")
 
-}
+} 
