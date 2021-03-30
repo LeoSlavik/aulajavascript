@@ -9,3 +9,4 @@ console.log (rand([992])) // intervalo entre o max (denominação do minimo pois
 
 console.log (rand ([, 10]) ) // minimo 0
 console.log (rand([])) //valores padroes 
+// valor undefined (()) consone.log (rand())
