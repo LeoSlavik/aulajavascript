@@ -29,3 +29,5 @@ console.log (Atemplates)
 
 const up = texto => texto.toUpperCase()
 console.log (`3 Segundos e sera o ano novo ${up(' feliz ano novo !!!')}!`) 
+
+

@@ -7,11 +7,16 @@ for (var i = 0; i <= 10 ; i++) {
 }
 
 
-/*numeros pares 
-var y = 2
-for (var i = 0; i < 20 ; i + 2 ) {
-console.log (i)
-}    
-incompleto */
+//numeros pares 
+for (var y = 0; y <= 20  ; y ++ ) {
+
+
+if (y % 2 === 0) { 
+
+
+    console.log (y) 
+}
+
 
  
+}
