@@ -12,4 +12,6 @@ const leite = 5.50
 const alface = 10.35
 
 console.log (Fornecedor[0] , "atendeu" ,Aclientes [0] ,"ele pediu dois leites e um alface.")
-console.log ("somando tudo,",Aclientes [0], "deverá pagar ", (leite * 2) + alface, "reais . a" , Fornecedor [0])
+console.log ("somando tudo,",Aclientes [0], "deverá pagar ", (leite * 2) + alface, "reais . a" , Fornecedor [0]) 
+
+

@@ -9,4 +9,43 @@ const  Mouse  = {}
 
 
 
-    console.log (Mouse.click('entre aspas'))
+    console.log (Mouse.click)
+
+
+    // objetos 
+
+    const linha = { 
+
+        Tamanho : '15 centímetros' ,
+        Grossura :  'Grosso' ,
+        Cor : 'Laranja' , 
+        Tipo : 'cerol' , 
+        Utilidade : 'Usar Na Pipa'
+
+
+    }
+
+
+   const Reta = { 
+
+
+     Tamanho = 'indefinido' ,
+     Cor = 'laranja' , 
+     LocalPlanoY =  9 , 
+     LocalPlanoX = 3 , 
+
+
+   }
+
+   const Ponto = {
+
+    nome = 'Ponto X' ,
+    nome2 = 'ponto y ',
+     
+
+
+
+
+   }
+
+' '
