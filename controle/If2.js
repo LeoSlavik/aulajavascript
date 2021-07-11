@@ -28,4 +28,4 @@ function teste1 (num) {
  teste2 (8)
 
 
- // não usar com as Estruturas de controle o ';'
+ // não usar com as Estruturas de controle o ';' se Possível

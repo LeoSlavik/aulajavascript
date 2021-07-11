@@ -36,4 +36,5 @@ ImprimirResultado(1)
 ImprimirResultado(-6)
 ImprimirResultado(15)
 
-// tem que lembrar do '' B R E A K ''
+// tem que lembrar do ''break''
+// o while pode substituir o Switch
