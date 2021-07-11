@@ -37,4 +37,4 @@ ImprimirResultado(-6)
 ImprimirResultado(15)
 
 // tem que lembrar do ''break''
-// o while pode substituir o Switch
+// o while pode substituir o Switch.
