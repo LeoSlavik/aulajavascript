@@ -30,8 +30,10 @@ const ImprimirResultado = function (nota) {
 }
 
 ImprimirResultado(2)
-/*ImprimirResultado(5)
+ImprimirResultado(5)
 ImprimirResultado(9)
 ImprimirResultado(1)
 ImprimirResultado(-6)
-ImprimirResultado(15)*/
+ImprimirResultado(15)
+
+// tem que lembrar do '' B R E A K ''
