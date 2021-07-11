@@ -15,7 +15,7 @@ function teste1 (num) {
 
  function teste2(num) {
 
-    if (num > 7 ); {
+    if (num > 7 ) ;  {
 
         console.log (num)
     } 
@@ -26,3 +26,6 @@ function teste1 (num) {
  }
  teste2 (6)
  teste2 (8)
+
+
+ // não usar com as Estruturas de controle o ';'
