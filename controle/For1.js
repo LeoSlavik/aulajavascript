@@ -11,7 +11,7 @@
  }
 
  const nota = [6.7 , 10.5 , 8.4 , 9.9]
- for (i = 0 ; i < nota. length ; i ++) {
+ for (let i = 0 ; i < nota. length ; i ++) {
 
     console.log (`o Array Selecionado é ${nota[i]}`)
  }
