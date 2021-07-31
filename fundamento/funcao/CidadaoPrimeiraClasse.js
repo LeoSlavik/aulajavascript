@@ -38,4 +38,6 @@ function soma (a , b ) {
         console.log (' a soma de a + b + c é = ' , a + b + c )
     }
 }
-soma (3 , 3 ) (6)
+soma (3 , 3 ) (6) 
+
+//revisar sempre 
