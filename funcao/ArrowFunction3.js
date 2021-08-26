@@ -20,7 +20,7 @@ ComparaComThisArrow(module.exports)
 
 ComparaComThis = ComparaComThisArrow.bind (obj)
 ComparaComThisArrow (obj)
-
+ComparaComThisArrow(module.exports)
 // o this numa function normal é global , mas numa arrow é private
 
  

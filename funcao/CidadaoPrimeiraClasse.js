@@ -37,7 +37,42 @@ function soma (a , b ) {
 
         console.log (' a soma de a + b + c é = ' , a + b + c )
     }
-}
+} 
 soma (3 , 3 ) (6) 
 
 //revisar sempre 
+// com 3 parametros
+
+function Multiplicacao (c , d) {
+
+    return function (f) {
+     console.log ('a multiplicação de c . d . f é', c * d * f)
+    } 
+}
+
+Multiplicacao (15, 2) (5)
+
+function divisao (c , d) {
+
+    return function (f) {
+     console.log ('a divisão de c : d : f é', c / d / f)
+    } 
+}
+
+divisao (20 , 2) (2)
+
+
+
+function subtracao (c , d) {
+
+    return function (f) {
+     console.log ('a subtração de c - d - f é', c - d - f)
+    } 
+}
+
+subtracao (40 , 3) (7)
+
+
+
+
+
