@@ -35,7 +35,8 @@ const divisao = function ( c , d ){
 
 
 }
- console.log (divisao ( 10 , 2))
+ console.log (divisao ( 10 , 2)) // revisão , assim vc consegue ler a function caso esteja com problemas
+ 
 
 
 
