@@ -72,7 +72,3 @@ function subtracao (c , d) {
 
 subtracao (40 , 3) (7)
 
-
-
-
-
