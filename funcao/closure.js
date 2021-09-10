@@ -1,0 +1,1 @@
+// closure é 1 escopo criado quando uma função é declarada
