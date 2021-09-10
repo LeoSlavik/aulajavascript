@@ -16,5 +16,5 @@ function exec () {
 
 exec ()
 
-// o sistema de closer faz com que a função armazene o valor mais próximo dela,
+// o sistema de closure faz com que a função armazene o valor mais próximo dela,
 // não importando a distancia
