@@ -9,4 +9,4 @@ console.log (soma)
 const [x , n , m ,y ] = [25 , 25 , 25, 25]
 const  NotasBimestrais = a + b + c + d
 
-console.log (" as notas bimestrais somadas tem o limite de : ", NotasBimestrais)
+console.log (" as notas bimestrais somada tem o limite de : ", NotasBimestrais)
