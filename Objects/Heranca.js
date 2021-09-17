@@ -11,7 +11,7 @@ const volvo = {
     Modelo:'V40' ,
     VelMax:200
 }
-
+console.log(Ferrari.prototype)
 console.log(Ferrari.__proto__)
 console.log(Ferrari.__proto__ === Object.prototype)
 console.log(volvo.__proto__ === Object.prototype)
