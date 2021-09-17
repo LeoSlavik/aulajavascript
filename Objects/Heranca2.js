@@ -1,7 +1,7 @@
 //cadeia de prototypes (chain)
 
 
-Object.prototype.attr0 = 'D'
+Object.prototype.attr0 = 'D' // não recomendado !!
 
 const avo = {attr1: 'E'}
 const pai = {__proto__:avo, attr2: 'U' , attr3: '4'}
