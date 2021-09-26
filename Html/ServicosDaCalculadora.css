@@ -1,0 +1,79 @@
+.calc{
+    margin: 200px 500px;
+}
+
+
+.container {
+  padding: 5px;
+    background-color: grey;
+    align-items: stretch;
+   display: flex;
+   max-width: fit-content;  /* Define O tamanho correto de acordo com os items
+                     no seu interior  */
+	
+	border: 0px;
+flex-direction: row ;}
+
+.item{
+
+    background-color: white;
+    width: 50px ;
+    height:  50px;
+ font-size: 50px;
+padding: 3px;
+    margin: 2px;
+    align-self: auto; 
+ 
+}
+
+
+
+body {
+
+    background-color: black;
+}
+
+.result{
+
+    padding-top: 0px;
+    background-color: white;
+border: 10px solid grey;
+  height: 40px;
+  width: auto;
+}
+input{
+font-size: 2rem;
+    width:220px ;
+    height: 35px;
+    margin: 0px;
+}
+
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding:0px;
+    vertical-align: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+   
+
+    margin: 0px;
+    cursor: pointer;
+  width: 50px;
+height: 50px; 
+
+}
+
+
+.Tamanho1{
+
+    font-size: 1em;
+}
+.Tamanho2{
+
+    font-size: 0.7em;
+}
