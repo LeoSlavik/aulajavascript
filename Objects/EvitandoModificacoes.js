@@ -31,3 +31,7 @@ pessoa.idade = 43
 
 console.log(pessoa)
 // pode alterar valores porem n pode adicionar nem deletar nada
+
+
+//object.freeze  = selado + valores constantes 
+

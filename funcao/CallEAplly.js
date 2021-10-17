@@ -23,3 +23,20 @@ console.log(getpreco.call(carro))
 
 console.log(getpreco.call(carro, 0.17 , "$"))
 console.log(getpreco.apply(carro,[0.17, '$']))
+
+function GetPrecoR (impostoR = 0 , MoedaR ='R$')
+ {
+
+    return ` ${MoedaR} ${this.precoR * (1 - this.descR) * ( 1 + impostoR)} `
+ }
+
+ const produtoR =  { 
+
+    NomeR:'Mustang',
+    precoR: 10000 , 
+    descR: 0.15,
+    GetPrecoR
+ }
+ global.precoR = 20
+ global.descR = 0.1
+ console.log(produtoR.GetPrecoR())

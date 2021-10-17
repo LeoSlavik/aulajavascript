@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="PT-BR">
-<link rel="stylesheet" href="ServicosDaCalculadora.css"> <!--   html   -->
+<link rel="stylesheet" href="../css/ServicosDaCalculadora.css"> <!--   html   -->
 <script src="Calculos.js"></script> <!--  JavaScript     -->
 
 <head></head>
@@ -22,10 +22,7 @@
 
             </div>
             <div class="item" id="divisao">
-        <button class="button Tamanho1"> ÷
-  
-            
-            </button> 
+              <button class="button Tamanho1"onclick="divisao()">/</button>
             </div> 
         </div>
         <div class="container">
@@ -43,7 +40,7 @@
 
             </div>
             <div class="item" id="Vezes">
-                <button class="button Tamanho1"onclick="PegaValor('*')">*</button>
+                <button class="button Tamanho1"onclick="Vezes()">*</button>
 
             </div>
 
@@ -63,13 +60,13 @@
 
             </div>
             <div class="item" id="mais">
-                <button class="button Tamanho1"onclick="PegaValor('+')">+</button>
+                <button class="button Tamanho1"onclick="mais()">+</button>
 
             </div>
         </div>
         <div class="container">
             <div class="item" id="invSinais">
-                <button class="button Tamanho2" onclick="PegaValor('+/-')" >+/-</button>
+                <button class="button Tamanho2" onclick="menos()" >-</button>
 
             </div>
             <div class="item" id="zero">
@@ -79,7 +76,7 @@
                 <button class="button Tamanho1" onclick="PegaValor(',')" >,</button>
             </div>
             <div class="item" id="igual">
-                <button class="button Tamanho1"onclick="PegaValor('=')" >=
+                <button class="button Tamanho1"onclick="igual()" >=
                 
                 </button>
             </div> <!-- &nbsp;-->

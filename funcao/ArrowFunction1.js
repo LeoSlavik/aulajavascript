@@ -18,3 +18,11 @@ ola = () => 'olá'
 ola = _ => 'olá'
 
 console.log (ola())
+// revisão
+
+
+     
+divisor = (b) => {
+    return 3  /  2
+} 
+console.log (divisor ())

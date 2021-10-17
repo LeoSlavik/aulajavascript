@@ -4,38 +4,92 @@ window.operador = '';
 
 function PegaValor(value) {
 
-    debugger;
+    
     window.document.getElementById("resultado").value += value;
 
-    if (value == '+') {
-        window.operador = value;
-        window.num1 = window.num2;
-        window.num2 = '';
-        //window.document.getElementById("resultado").value = num2;
-    } else if (value == '-') {
-            resultado = window.num1 - window.num2
-    } else if (value == '/') {
-                resultado = window.num1 / window.num2
-    } else if (value == '*') {
 
-                    resultado = window.num1 * window.num2
+        window.num2 += value
+    }
 
-    } else if (value == '=') {
-        if (operador == '+') {
-			var resultado = (window.num1 - 0) + (window.num2 - 0)
+function Vezes() {
+    window.document.getElementById("resultado").value += '*';
+    window.operador = '*';
+    window.num1 = window.num2;
+    window.num2 = ''
+}
+
+function mais() {
+    window.document.getElementById("resultado").value += '+';
+    window.operador = '+';
+    window.num1 = window.num2;
+    window.num2 = ''
+}
+
+function menos() {
+    window.document.getElementById("resultado").value += '-';
+    window.operador = '-';
+    window.num1 = window.num2;
+    window.num2 = ''
+}
+
+function divisao() {
+    window.document.getElementById("resultado").value += '/';
+    window.operador = '/';
+    window.num1 = window.num2;
+    window.num2 = ''
+}
+
+
+
+
+
+
+
+
+
+function igual() {
+
+    switch (operador) {
+
+  
+       case '+' : 
+			var resultado = (parseInt(num1)) + (parseInt(num2))
+            window.document.getElementById("resultado").value = resultado;
+            debugger;	
+			window.num2 = resultado.toString();
+			window.num1 = '';
+            window.operador= '';
+        
+        break 
+        case  '-' :
+            var resultado = (parseInt(num1)) - (parseInt(num2))
             window.document.getElementById("resultado").value = resultado;
 			
-			window.num2 = resultado;
+			window.num2 = resultado.toString();
 			window.num1 = '';
-        } else if (operador == '-') {
-            var resultado = (window.num1 - 0) - (window.num2 - 0);
+            window.operador= '';
+        break   
+      case  '/':
+            var resultado = (parseInt(num1)) / (parseInt(num2))
             window.document.getElementById("resultado").value = resultado;
 			
-			window.num1 = resultado;
+			window.num2 = resultado.toString();
 			window.num1 = '';
-        }
+            window.operador= '';
+        break
+        case '*' :
+            var resultado = (parseInt(num1)) * (parseInt(num2))
+            window.document.getElementById("resultado").value = resultado;
+			
+			window.num2 = resultado.toString();
+			window.num1 = '';
+            window.operador= '';
+        break
     }
-    else {
-        window.num2 += value;
-    }
+
+
+
+
+
+
 }

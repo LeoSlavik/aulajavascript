@@ -21,6 +21,15 @@ ComparaComThisArrow(module.exports)
 ComparaComThis = ComparaComThisArrow.bind (obj)
 ComparaComThisArrow (obj)
 ComparaComThisArrow(module.exports)
-// o this numa function normal é global , mas numa arrow é private
+// o this numa function normal é global , mas numa arrow é private (scope)
 
- 
+let ThisComparison = function (Parameters) 
+{
+  ThisComparison = (Parameters) => { 
+
+  return Parameters === this
+
+  }
+
+}
+//ThisComparison (Parameters) ( não aparece pois não está dentro do escopo)
