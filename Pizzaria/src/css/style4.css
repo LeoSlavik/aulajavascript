@@ -34,7 +34,7 @@ html {
 } 
 
 label {
-
+text-size-adjust: 0.5em ;
     color: orange;
 }
 :root {
@@ -46,7 +46,7 @@ display: block;
 }
 .form-check {
  display: block;
-    
+ 
 
 }
 
@@ -66,6 +66,8 @@ select.form-control:hover {
 input.form-control {
   width: 507px;
     background: white;
+    border-radius: 20px;
+
 }
 
 .form-check {
@@ -92,20 +94,30 @@ div {
 }
 
 .form-group {
+   margin: 0px;
     background: white;
 }
 form {
-    
+   
  border-left: 200px;
     display: flex;
 }
+label {
+    
+}
+div.form-check {
+   
+    display: block;
+    padding-left:0
+;
+}
 div.form-1 {
-    background-color:#e6eaf5 ;
+    background-color:white ;
   flex-wrap: wrap;
     display: block;
 }
 div.form-group {
- margin-left: 100px;
+ margin-left: 0px;
     height: 100px;
 }
 select#inputEstado {
@@ -135,7 +147,8 @@ div.form-1 {
     display: block;
 }
 
-
+input {
+text-align: center;}
 
 html {
 
@@ -153,16 +166,71 @@ html {
 }
 div {
     border: 0px;
+    text-align: center;
 }
 
 div.form-group {
 
-    background: #e6eaf5;
+    background: white;
 }
 
-
+.txtcolor {
+ text-align: center;
+    color: orange;
+}
 form {
-    align-items: baseline;
-    justify-content: center;
+  text-align: end;
+  align-content: baseline;
+    justify-content: center ;
 }
     
+.card {
+    margin-top: 25px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    width: auto;
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.card > button {
+
+  align-content: center;
+}
+
+div.form-control {
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.btn {
+    box-shadow: none;
+    width: 250px;
+    height: 50px;
+}
+.btn:hover {
+
+   background:#0080ff(0, 0, 255);
+   color:#fff;
+   box-shadow: 0 10px 0 #0080ff;
+}
+
+.btn:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.col-7 {
+
+   width: 60%;
+    margin-left: 120px
+;
+}
+.btn:hover{
+    outline-offset: none;
+  }
