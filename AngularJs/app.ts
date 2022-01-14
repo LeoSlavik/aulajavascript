@@ -101,3 +101,18 @@ class Caminhao extends carro {
     }
 let Torpedo =  new Caminhao
 Torpedo.CarroEstatistica()
+// Revisão 
+
+class Vegetal { 
+
+    constructor( public LatinName,public VegName: string, public VegType: string , public VegCor:string, ) {}
+
+      VegetalCaracteristicas (){ console.log(`${this.LatinName} Mais conhecido como ${this.VegName} é um(a) ${this.VegType} e sua cor é ${this.VegCor}`)
+}}
+
+let Alface = new Vegetal ('A Lactuca sativa','Herbácea','Alface', ' Verde')
+Alface.VegetalCaracteristicas()
+let Batata = new Vegetal ('O Solanum tuberosum','Herbácea','Batata', ' Castanha')
+Batata.VegetalCaracteristicas()
+let RepolhoRoxo = new Vegetal ('A Brassica oleracea var. capitata f. rubra', 'Herbacea','Repolho Roxo','Roxa ')
+RepolhoRoxo.VegetalCaracteristicas()

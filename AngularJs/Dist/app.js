@@ -104,3 +104,22 @@ var Caminhao = /** @class */ (function (_super) {
 }(carro));
 var Torpedo = new Caminhao;
 Torpedo.CarroEstatistica();
+// Revisão 
+var Vegetal = /** @class */ (function () {
+    function Vegetal(LatinName, VegName, VegType, VegCor) {
+        this.LatinName = LatinName;
+        this.VegName = VegName;
+        this.VegType = VegType;
+        this.VegCor = VegCor;
+    }
+    Vegetal.prototype.VegetalCaracteristicas = function () {
+        console.log("".concat(this.LatinName, " Mais conhecido como ").concat(this.VegName, " \u00E9 um(a) ").concat(this.VegType, " e sua cor \u00E9 ").concat(this.VegCor));
+    };
+    return Vegetal;
+}());
+var Alface = new Vegetal('A Lactuca sativa', 'Herbácea', 'Alface', ' Verde');
+Alface.VegetalCaracteristicas();
+var Batata = new Vegetal('O Solanum tuberosum', 'Herbácea', 'Batata', ' Castanha');
+Batata.VegetalCaracteristicas();
+var RepolhoRoxo = new Vegetal('A Brassica oleracea var. capitata f. rubra', 'Herbacea', 'Repolho Roxo', 'Roxa ');
+RepolhoRoxo.VegetalCaracteristicas();
