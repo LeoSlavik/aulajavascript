@@ -1,0 +1,76 @@
+
+html{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+max-height: 900px;
+}
+body{
+display:block;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-size: cover;
+background-image: url(../imagens/fundo2.png);
+min-height: 100vh;
+max-height: 900px;
+}
+
+.card {
+width: auto;
+height: auto;
+display:grid;
+}
+
+input::placeholder {
+
+
+color: aqua;
+}
+button:hover{
+    background-size: cover;
+background-image: url(../imagens/tecno.jpg);
+width: 130px;
+height: 80px;;
+transition: 1s all ;
+border: 10px  all;
+;
+}
+button {
+    border-color: aquamarine;
+ color: aquamarine;
+    background-color: transparent;
+    border-radius: 30px;
+    margin-top: 30px;
+    height: 50px;
+width: 120px;
+margin-left:38%;
+border-bottom: 500px;
+font-size: 20px;
+}
+input {
+color: aqua;
+background-color: black;
+height: 30px;
+width: 500px;
+margin-top: 30px;
+border-radius: 30px;
+}
+img {
+    margin: 0 auto;
+padding: 0 auto;
+    align-self: baseline;
+    width: 500px;
+height: 500px;
+
+
+}
+.zoom {
+
+width: 500px;
+height: 500px;
+
+
+}
